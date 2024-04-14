@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+
+body {
+  @apply text-base text-black bg-bg-color;
+  font-family: "Golos Text", sans-serif;
+  
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  opacity: 0.2 !important;
+}
+td{
+  padding: 10px;
+}
+
+thead{
+  background-color: gray;
+}
+
+.open-menu{
+  opacity: 1;
+  transform: scale(1);
+}
+
+.close-menu{
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+#about{
+margin-top: 10px;
+font-size: 24px;
+}
+
+#orders{
+  padding: 20px;
+  margin-top: 7px;;
+}
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  
+
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
